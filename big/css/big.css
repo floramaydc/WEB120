@@ -1,0 +1,94 @@
+/* BIG STYLES */
+
+ div.wrapper {
+    max-width: 1280px;
+    overflow:auto;
+    margin:auto;
+}
+
+header h1 {
+    font-variant: small-caps;
+    text-align: center;
+    margin: 0;
+    padding: .75em;
+}
+
+figure{
+    margin-left: 3em;
+}
+
+figure, figcaption {
+    display:inline-block;
+}
+
+figcaption {
+    background-color:#000;
+    color:#fff;
+    text-align:center;
+    padding:1em 0;
+    width:100%;
+}
+
+
+
+
+
+
+/* START - EMBED RESPONSIVE STYLES */
+
+div.embed-container {
+    position: relative; 
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; 
+}
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* END - EMBED RESPONSIVE STYLES */
+
+/* START LEFT Column */
+    section {
+        float:left;
+        width:64%;
+    }
+/* END LEFT Column */
+
+/* START RIGHT Column */
+    aside {
+        float:right;
+        width:33%;
+    }
+/* END RIGHT Column */
+
+footer {
+    text-align: center;
+    padding:1em;
+}
+
+@media all and (max-width:500px) {
+    
+    div.wrapper {
+        /* background-color:yellow; */
+    }
+    
+    aside,section {
+        float:none;
+        width:100%;
+    }
+    
+}
+
+
+
+
+
+
+

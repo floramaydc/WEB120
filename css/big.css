@@ -1,0 +1,51 @@
+/* BIG STYLES */
+
+
+ div.wrapper {
+    max-width: 1280px;
+    overflow:auto;
+    margin:auto;
+}
+
+header h1 {
+    font-variant: small-caps;
+    text-align: center;
+    margin: 0;
+    padding: .75em;
+}
+
+/* START LEFT Column */
+    section {
+        float:left;
+        width:64%;
+    }
+/* END LEFT Column */
+
+/* START RIGHT Column */
+    aside {
+        float:right;
+        width:33%;
+    }
+/* END RIGHT Column */
+
+footer {
+    text-align: center;
+    padding:1em;
+}
+
+@media all and (max-width:500px) {
+    
+    div.wrapper {
+        /* background-color:yellow; */
+    }
+    
+    aside,section {
+        float:none;
+        width:100%;
+    }
+    
+}
+
+
+
+

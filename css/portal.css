@@ -1,0 +1,99 @@
+/* My WEB120 Portal Website Styles */
+
+body, html {
+    margin:0;
+}
+
+html {
+    background-color:#ccc;
+    font-family: "Arial", Arial, sans-serif;
+}
+
+div.wrapper {
+    background-color:#fff;
+    overflow: auto;
+    height:90vh;
+}
+
+
+footer {
+    clear:both;
+    text-align: center;
+}
+
+/* DESKTOP */
+@media all and (min-width:1280px){
+    
+    div.wrapper {
+        width:80%;
+        margin:auto;
+        border:1px solid #000;
+    }
+    
+    /* LEFT COL */
+    section {
+        float:left;
+        width:68%;
+        margin: 5px;
+        
+    }
+
+    /* RIGHT COL */
+    aside {
+        float:right;
+        width:28%;
+    }
+    
+}
+
+/* TABLET */
+@media all and (min-width:481px) and (max-width:1279px){
+    
+    /* LEFT COL */
+    section {
+        float:left;
+        width:58%;
+    }
+
+    /* RIGHT COL */
+    aside {
+        float:right;
+        width:40%;
+    }
+    
+}
+
+
+/* PHONE */
+@media all and (max-width:480px){
+    
+}
+
+/* Flora's modifications */
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 275px;
+    margin: 3px;
+    margin-right: 10px;
+}
+
+p {
+    font-family: "Arial", Arial, sans-serif;
+    text-align: inherit;
+    text-indent: inherit;
+    margin: auto;
+}
+
+
+p.home {
+    text-align: justify;
+    margin-left: 10px;
+    text-indent: 20px;
+}
+
+header h1 {
+    margin:5px;
+    text-align: center;
+}
